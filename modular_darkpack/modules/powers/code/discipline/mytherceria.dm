@@ -18,7 +18,7 @@
 
 /datum/discipline/mytherceria/post_gain()
 	. = ..()
-	owner.set_body_sprite = ("kiasyd")
+	owner.set_body_sprite("kiasyd")
 	owner.update_body_parts()
 	owner.update_body()
 
