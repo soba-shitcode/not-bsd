@@ -12,7 +12,7 @@
 	)
 
 	subsplat_traits = list(
-		TRAIT_REPELLED_BY_HOLINESS
+		TRAIT_REPELLED_BY_HOLINESS,
 		TRAIT_BEACON_OF_THE_UNHOLY
 	)
 	male_clothes = /obj/item/clothing/under/vampire/baali
