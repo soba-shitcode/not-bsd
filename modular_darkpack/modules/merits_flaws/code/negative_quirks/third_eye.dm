@@ -7,7 +7,7 @@
 	lose_text = span_notice("Your third eye shuts once again.")
 	allowed_splats = list(SPLAT_KINDRED)
 	included_clans = list(VAMPIRE_CLAN_TREMERE)
-	excluded_clans = list(VAMPIRE_CLAN_SALUBRI)
+	excluded_clans = list(VAMPIRE_CLAN_HEALER_SALUBRI, VAMPIRE_CLAN_WARRIOR_SALUBRI)
 	icon = FA_ICON_EYE
 	failure_message = "Your blood resists the urge to open the third eye."
 	quirk_flags = QUIRK_CHANGES_APPEARANCE

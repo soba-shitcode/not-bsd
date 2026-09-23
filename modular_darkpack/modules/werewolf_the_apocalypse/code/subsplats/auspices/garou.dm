@@ -148,4 +148,4 @@
 	name = AUSPICE_NONE
 	// DARKPACK TODO - WEREWOLF - (len lore)
 	desc = "Your not a dog are you."
-	// Stolen moon get no gifts
+	// Skin dancers get no gifts
