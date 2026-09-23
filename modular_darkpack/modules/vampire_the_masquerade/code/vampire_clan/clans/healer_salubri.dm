@@ -13,6 +13,7 @@
 	subsplat_traits = list(
 		TRAIT_CONSENSUAL_FEEDING_ONLY,
 		TRAIT_IRRESISTIBLE_VITAE
+		TRAIT_THIRD_EYE
 	)
 	male_clothes = /obj/item/clothing/under/vampire/salubri
 	female_clothes = /obj/item/clothing/under/vampire/salubri/female

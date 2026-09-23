@@ -21,6 +21,9 @@
 	name = "Valeren power name"
 	desc = "Valeren power description"
 
+/datum/discipline/valeren/post_gain()
+	ADD_TRAIT(owner, TRAIT_THIRD_EYE, type)
+
 /datum/storyteller_roll/sense_vitality
 	bumper_text = "sense vitality"
 	applicable_stats = list(STAT_PERCEPTION, STAT_EMPATHY)

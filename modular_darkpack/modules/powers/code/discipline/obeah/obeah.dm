@@ -16,6 +16,9 @@
 
 	activate_sound = 'modular_darkpack/modules/powers/sounds/obeah.ogg'
 
+/datum/discipline/obeah/post_gain()
+	ADD_TRAIT(owner, TRAIT_THIRD_EYE, type)
+
 /datum/discipline_power/obeah/sense_vitality
 	name = "Sense Vitality"
 	desc = "Allows you to determine the vitality of a target."
