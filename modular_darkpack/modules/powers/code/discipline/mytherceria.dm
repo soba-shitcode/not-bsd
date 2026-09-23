@@ -16,6 +16,9 @@
 
 	activate_sound = 'modular_darkpack/modules/deprecated/sounds/kiasyd.ogg'
 
+/datum/discipline/mytherceria/post_gain()
+	ADD_SPRITE_OVERRIDE(owner, alt_sprite = "kiasyd", no_facial = TRUE)
+
 //FEY SIGHT
 /datum/discipline_power/mytherceria/fey_sight
 	name = "Fey Sight"
